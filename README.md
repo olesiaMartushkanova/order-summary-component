@@ -15,11 +15,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 My first challenge from the Frontend Mentor.
 I wanted to practice pure HTML and CSS.
 
-### Screenshot
+### Solution
 
 Completed solution:
 
 ![](./my-solution.jpeg)
+
+[View my solution online](https://olesiamartushkanova.github.io/order-summary-component/)
 
 ## My process
 
