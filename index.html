@@ -11,59 +11,47 @@
   <link rel="stylesheet" href="styles-desktop.css">
   <link rel="stylesheet" href="styles-mobile.css">
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
-  </style>
-
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 <body>
 
-  <div class="container__body">
-    <img class="image__hero" src="images/illustration-hero.svg" alt="Hero">
+  <div class="container__body width__base">
+    <img class="image__hero width__base" src="images/illustration-hero.svg" alt="Hero">
 
-    <div class="title">
+    <div class="title color__dark-blue">
       Order Summary
     </div>
 
-    <div class="summary">
+    <div class="summary color__grey">
       You can now listen to millions of songs, audiobooks, and podcasts on any
       device anywhere you like!
     </div>
 
-    <div class="container__annual-plan">
+    <div class="annual-plan">
       <img class="image__icon-music" src="images/icon-music.svg" alt="Icon-music">
-      <div class="container__annual-plan-text">
-        <div class="text__annual-plan">Annual Plan</div>
-        <div class="text__price"> $59.99/year
+
+      <div class="annual-plan-price__container">
+        <div class="text__annual-plan color__dark-blue font__medium-bold ">Annual Plan</div>
+        <div class="font-size__medium color__grey"> $59.99/year
         </div>
+
       </div>
-      <div class="text__change"> Change
+      <div class="text__change font-size__medium active-state"> Change
       </div>
     </div>
 
     <div class="container__navigation-button">
       <button class="button__proceed-to-payment">Proceed to Payment</button>
-      <div class="text__cancel-order">Cancel Order</div>
+      <div class="text__cancel-order color__grey font-size__medium active-state font__medium-bold ">Cancel Order</div>
     </div>
 
   </div>
 
-  <div class="attribution">
+  <div class="attribution width__base font-size__medium">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Olesia</a>.
   </div>
 </body>
 </html>
