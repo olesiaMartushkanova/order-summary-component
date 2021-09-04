@@ -5,6 +5,7 @@ body {
   background-color: #d6e1ff;
   margin: auto;
   margin-top: 20px;
+  max-width: 500px;
 }
 
 .width__base {
