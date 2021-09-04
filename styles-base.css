@@ -43,21 +43,21 @@ body {
 }
 
 .title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 950;
-  margin-top: 30px;
+  margin-top: 28px;
   text-align: center;
-  letter-spacing: -1px;
 }
 
 .summary {
   text-align: center;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-  padding: 35px;
+  align-items: center;
+  padding: 29px;
+  width: 275px;
   line-height: 1.6;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
+  opacity: 80%;
 }
 
 .annual-plan {
@@ -65,7 +65,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   width: 300px;
   height: 80px;
   background-color: #f8f9fe;
