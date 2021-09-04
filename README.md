@@ -5,7 +5,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot of my solution](#Screenshot of my solution)
+  - [Screenshot](#Screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -15,9 +15,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 My first challenge from the Frontend Mentor.
 I wanted to practice pure HTML and CSS.
 
-### Screenshot of my solution
+### Screenshot
 
-![](./my-solution.png)
+Completed solution:
+
+![](./my-solution.jpg)
 
 ## My process
 
