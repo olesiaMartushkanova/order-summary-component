@@ -19,7 +19,7 @@ I wanted to practice pure HTML and CSS.
 
 Completed solution:
 
-![](./my-solution.jpg)
+![](./my-solution.jpeg)
 
 ## My process
 
