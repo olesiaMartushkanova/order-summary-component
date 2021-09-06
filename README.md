@@ -19,7 +19,7 @@ I wanted to practice pure HTML and CSS.
 
 Completed solution:
 
-![](./my-solution.jpeg)
+![](./my-solution-v2.jpeg)
 
 [View my solution online](https://olesiamartushkanova.github.io/order-summary-component/)
 
