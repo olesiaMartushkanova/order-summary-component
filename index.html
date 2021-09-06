@@ -16,8 +16,8 @@
 </head>
 <body>
 
-  <div class="container__body width__base" role="complementary">
-    <img role="banner" class="image__hero width__base" src="images/illustration-hero.svg" alt="Hero">
+  <div class="container__body width__base" role="main">
+    <img class="image__hero width__base" src="images/illustration-hero.svg" alt="Hero">
 
     <h1 class="title color__dark-blue">
       Order Summary
@@ -28,7 +28,7 @@
       device anywhere you like!
     </p>
 
-    <div class="annual-plan" role="main">
+    <div class="annual-plan">
       <img class="image__icon-music" src="images/icon-music.svg" alt="Icon-music">
 
       <div class="annual-plan-price__container">
@@ -41,7 +41,7 @@
       </div>
     </div>
 
-    <div class="container__navigation-button" role="navigation">
+    <div class="container__navigation-button" role="navigation" aria-label="Primary">
       <button class="button__proceed-to-payment active-state">Proceed to Payment</button>
       <div role="button" class="text__cancel-order color__grey font-size__medium active-state font__medium-bold ">Cancel
         Order</div>
@@ -49,7 +49,7 @@
 
   </div>
 
-  <div class="attribution width__base font-size__medium">
+  <div class="attribution width__base font-size__medium" role="navigation" aria-label="Secondary">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Olesia</a>.
   </div>
