@@ -14,21 +14,21 @@
 
 
 </head>
-<body>
+<body role="main">
 
-  <div class="container__body width__base">
+  <div class="container__body width__base" role="complementary">
     <img class="image__hero width__base" src="images/illustration-hero.svg" alt="Hero">
 
-    <div class="title color__dark-blue">
+    <h1 class="title color__dark-blue">
       Order Summary
-    </div>
+    </h1>
 
-    <div class="summary color__grey">
+    <p class="summary color__grey">
       You can now listen to millions of songs, audiobooks, and podcasts on any
       device anywhere you like!
-    </div>
+    </p>
 
-    <div class="annual-plan">
+    <section class="annual-plan">
       <img class="image__icon-music" src="images/icon-music.svg" alt="Icon-music">
 
       <div class="annual-plan-price__container">
@@ -37,18 +37,19 @@
         </div>
 
       </div>
-      <div class="text__change font-size__medium active-state"> Change
+      <div role='button' class="text__change font-size__medium active-state"> Change
       </div>
-    </div>
+    </section>
 
-    <div class="container__navigation-button">
+    <div class="container__navigation-button" role="navigation">
       <button class="button__proceed-to-payment active-state">Proceed to Payment</button>
-      <div class="text__cancel-order color__grey font-size__medium active-state font__medium-bold ">Cancel Order</div>
+      <div role="button" class="text__cancel-order color__grey font-size__medium active-state font__medium-bold ">Cancel
+        Order</div>
     </div>
 
   </div>
 
-  <div class="attribution width__base font-size__medium">
+  <div class="attribution width__base font-size__medium" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Olesia</a>.
   </div>
