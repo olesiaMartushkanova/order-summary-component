@@ -33,5 +33,5 @@ Completed solution:
 
 ### What I learned
 
-Learned to reuse group and reuse repetitive CSS following the subclasses approach:
+Learned to group and reuse repetitive CSS following the subclasses approach:
 [Read about subclasses in CSS](https://medium.com/insider-inc-engineering/delightful-ways-to-write-reusable-css-using-subclasses-903e90c9cf87)
